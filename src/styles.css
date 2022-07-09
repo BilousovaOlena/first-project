@@ -1,0 +1,140 @@
+.frame {
+  display: block;
+  margin: 40px auto;
+  background-image: url(src/pictures/picmap.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  height: 550px;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #abb7c2;
+  font-family: "Lato", sans-serif;
+}
+.request {
+  position: relative;
+  padding: 30px 25px 0 25px;
+}
+input {
+  width: 273px;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #565f68;
+  box-shadow: 1px 1px 1px 1px #6c7c8b;
+  opacity: 1;
+}
+input:focus {
+  color: #6c7c8b;
+}
+.search {
+  margin: 15px 10px 10px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 7px;
+  color: #003163;
+  background-color: #c59e02;
+  transition: opacity 150ms ease-in-out;
+  box-shadow: 1px 1px 1px 1px #6c7c8b;
+  opacity: 1;
+  width: 90px;
+}
+.search:hover {
+  background-color: #dab52c;
+}
+.poisk {
+  position: relative;
+  top: -34px;
+  right: -100px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 7px;
+  color: #003163;
+  background-color: #c59e02;
+  transition: opacity 150ms ease-in-out;
+  box-shadow: 1px 1px 1px 1px #6c7c8b;
+  opacity: 1;
+  width: 90px;
+}
+.poisk:hover {
+  background-color: #dab52c;
+}
+header {
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  border: none;
+  border-radius: 7px;
+  color: #003163;
+  background-color: #bdccd9;
+  line-height: 0.5;
+  padding: 10px 10px;
+  height: 220px;
+  width: 260px;
+}
+h1 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+header p {
+  font-size: 24px;
+}
+.clouds {
+  font-size: 20px;
+  padding: 0 40px;
+}
+.fa-sun {
+  font-size: 28px;
+  color: #c59e02;
+}
+.info {
+  position: relative;
+  top: 260px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  color: #003163;
+  background-color: #bdccd9;
+  line-height: 1;
+  padding: 10px 10px;
+  height: 100px;
+  width: 260px;
+}
+ul {
+  position: relative;
+  top: -250px;
+  right: -310px;
+}
+li {
+  list-style-type: none;
+}
+.days {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: #003163;
+  background-color: #bdccd9;
+  line-height: 1.5;
+  text-align: center;
+  padding: 7px;
+  margin: 12px;
+  height: 80px;
+  width: 100px;
+}
+#celsius-new {
+  text-decoration: none;
+}
+#farenh-new {
+  text-decoration: none;
+}
