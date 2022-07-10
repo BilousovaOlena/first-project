@@ -48,7 +48,7 @@ input:focus {
 }
 .poisk {
   position: relative;
-  top: -34px;
+  top: -39px;
   right: -100px;
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -90,7 +90,7 @@ header p {
 }
 .clouds {
   font-size: 20px;
-  padding: 0 40px;
+  padding: 0 0 0 25px;
 }
 .fa-sun {
   font-size: 28px;
@@ -112,8 +112,8 @@ header p {
 }
 ul {
   position: relative;
-  top: -250px;
-  right: -310px;
+  top: -200px;
+  right: -280px;
 }
 li {
   list-style-type: none;
@@ -125,7 +125,7 @@ li {
   border-radius: 5px;
   color: #003163;
   background-color: #bdccd9;
-  line-height: 1.5;
+  line-height: 1;
   text-align: center;
   padding: 7px;
   margin: 12px;
